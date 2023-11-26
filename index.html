@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Selección de stickers</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js"></script>
+
+</head>
+
+<body>
+
+
+  <!-- Imágenes de stickers -->
+
+  <img src="assets/img/sticker4.jpg" alt="Imagen 1" width="300" height="300" onclick="toggleBorder(this)">
+
+
+  <h1>Selección de stickers</h1>
+
+  <section class="seleccionstickers">
+    <h1 class="purples">Puedes comprar hasta 10 stickers</h1>
+    <div class="stickers">
+      <div class="image">
+        <img src="assets/img/perrito1.png" alt="Imagen 1" width="300" height="300">
+        <h3>Perrito Coqueto</h3>
+        <input type="text" id="perrito1" />
+      </div>
+      <div class="image">
+        <img src="assets/img/perrito2.webp" alt="Imagen 2" width="300" height="300">
+        <h3>Perrito Asesino</h3>
+        <input type="text" id="perrito2" />
+      </div>
+      <div class="image">
+        <img src="assets/img/perrito3.webp" alt="Imagen 3" width="300" height="300">
+        <h3>Perrito Avergonzado</h3>
+        <input type="text" id="perrito3" />
+      </div>
+      <div class="image">
+        <img src="assets/img/perrito4.webp" alt="Imagen 4" width="300" height="300">
+        <h3>Perrito Sonriente</h3>
+        <input type="text" id="perrito4" />
+      </div>
+    </div>
+
+    <div class="bottom">
+      <button class="emoji">Comprar</button>
+      <p id="resultsticker"></p>
+    </div>
+  </section>
+
+
+  <hr>
+
+  
+  <!-- Select para ingresar contraseña -->
+  <select id="password-select">
+    <option value="911">Contraseña 1</option>
+    <option value="714">Contraseña 2</option>
+  </select>
+  <button onclick="verificarPassword()">Ingresar</button>
+  <p id="resultado-password"></p>
+
+</body>
+
+
+</html>

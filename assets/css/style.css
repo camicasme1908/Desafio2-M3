@@ -1,0 +1,19 @@
+.selected {
+    border: 2px solid red;
+  }
+
+.boton {
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.seleccionstickers{
+  justify-content: center;
+  padding: 10px;
+ 
+}
+
+.bottom{
+  padding: 3%;
+}
